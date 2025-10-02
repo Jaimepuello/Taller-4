@@ -11,3 +11,15 @@ function resgistrarUsuario (Nombre, Correo){
     registro.push (nuevoUsuario)
     console.log ("Usuario registrado:", nuevoUsuario)
 }
+resgistrarUsuario()
+
+
+let libros= []
+function registrarLibros (titulo, autor, estado){
+    const libroNuevo = {titulo, autor, estado}
+    libros.push (libroNuevo)
+    console.log ("Lobro registrado:", libroNuevo)
+
+    
+}
+registrarLibros()
