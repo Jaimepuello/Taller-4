@@ -11,7 +11,7 @@ function resgistrarUsuario (Nombre, Correo){
     registro.push (nuevoUsuario)
     console.log ("Usuario registrado:", nuevoUsuario)
 }
-resgistrarUsuario()
+resgistrarUsuario("Pedro Rodriguez", "pedro456@gmail.com")
 
 
 let libros= []
@@ -22,4 +22,4 @@ function registrarLibros (titulo, autor, estado){
 
     
 }
-registrarLibros()
+registrarLibros("Vikingos", "Autor1", "disponible")
