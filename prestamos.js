@@ -12,3 +12,7 @@ export function prestarLibro(titulo){
         
     }
 }
+
+export function librosDisponibles(){
+    libros.filter(d => d.estado == "disponible").forEach(d => console.log(`${d.titulo} ${d.autor}`))
+}

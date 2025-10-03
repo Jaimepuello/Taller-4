@@ -1,10 +1,13 @@
 import {libros} from "./libros.js";
-import {prestarLibro} from "./prestamos.js";
+import {prestarLibro, librosDisponibles} from "./prestamos.js";
 
 
-prestarLibro("El principe");
+prestarLibro("El principe")
 
 function listarLibros (){
     console.log(libros)
 }
 listarLibros()
+
+
+librosDisponibles()
